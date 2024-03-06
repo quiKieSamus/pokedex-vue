@@ -3,6 +3,8 @@ import { ref } from 'vue';
 import PokemonDataContainer from '../PokemonDataContainer/PokemonDataContainer.vue';
 
 const pokeNameModel = defineModel();
+
+// object which contains data from fetch api
 const pokeData = ref('pikachu');
 
 async function searchPokemon() {
