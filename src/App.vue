@@ -3,5 +3,17 @@ import SearcherContainer from './components/SearcherContainer/SearcherContainer.
 </script>
 
 <template>
-  <SearcherContainer />
+  <div>
+    <SearcherContainer />
+  </div>
 </template>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+</style>
